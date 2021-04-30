@@ -9,7 +9,7 @@ from flask_cors import CORS
 from flask import jsonify
 from flask import request, json
 
-
+# this is our models
 def load_models():
     file_name = "models/model_total.p"
     with open(file_name, 'rb') as pickled:
